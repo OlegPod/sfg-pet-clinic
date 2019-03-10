@@ -1,4 +1,5 @@
-package sfgpetclinic;
+package com.olehpodolin.sfgpetclinic;
+
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

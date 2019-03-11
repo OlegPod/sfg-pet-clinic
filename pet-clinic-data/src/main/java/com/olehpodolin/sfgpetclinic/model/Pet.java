@@ -2,7 +2,7 @@ package com.olehpodolin.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
-public class Pet extends Person {
+public class Pet extends Person{
 
     private PetType petType;
     private Owner owner;

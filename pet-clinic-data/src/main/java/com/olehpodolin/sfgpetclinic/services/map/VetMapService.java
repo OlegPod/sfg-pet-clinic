@@ -5,10 +5,12 @@ import com.olehpodolin.sfgpetclinic.model.Speciality;
 import com.olehpodolin.sfgpetclinic.model.Vet;
 import com.olehpodolin.sfgpetclinic.services.SpecialityService;
 import com.olehpodolin.sfgpetclinic.services.VetService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 @Service
+@Profile({"default", "map"})
 public class VetMapService extends AbstactMapService<Vet, Long> implements VetService {
 
     private final SpecialityService specialityService;

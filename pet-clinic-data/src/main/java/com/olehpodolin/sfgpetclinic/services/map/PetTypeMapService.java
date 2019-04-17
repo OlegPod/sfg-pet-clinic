@@ -2,11 +2,13 @@ package com.olehpodolin.sfgpetclinic.services.map;
 
 import com.olehpodolin.sfgpetclinic.model.PetType;
 import com.olehpodolin.sfgpetclinic.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class PetTypeMapService extends AbstactMapService<PetType, Long> implements PetTypeService {
 
     @Override

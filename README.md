@@ -1,4 +1,4 @@
-* Continuous Integration with CircleCI [![CircleCI](https://circleci.com/gh/OlegPod/sfg-pet-clinic.svg?style=svg)](https://circleci.com/gh/OlegPod/sfg-pet-clinic)
+* Continuous Integration with CircleCI [![CircleCI](https://circleci.com/gh/OlegPod/spring-pet-clinic.svg?style=svg)](https://circleci.com/gh/OlegPod/spring-pet-clinic)
 
 # Pet Clinic Application
 This project was built step-by-step from original Spring Pet Clinic
